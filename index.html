@@ -22,45 +22,38 @@
 </body>
 </html>
 <style type="text/css">
+    video{
+        width: 50%;
+    }
 /*Resposive (Adaptar Pantalla)*/
-@media screen and (max-width: 980px){
-    #contenedor{
-        width: 90%;
+    @media screen and (max-width: 980px){
+        #contenedor{
+            width: 90%;
+        }
+        #contenido{
+            width: 60%;
     }
-    #contenido{
-        width: 60%;
-    }
-    #barra_lateral{
-        width:30%;
+        #barra_lateral{
+            width:30%;
     }
 }
-@media screen and (max-width: 480px){
-    #encabezado{
+    @media screen and (max-width: 480px){
+        #encabezado{
+            height: auto;
+    }
+        #contenido{
+            width: auto;
+    }
+        #barra_lateral{
+            display:none;
+    }
+}
+        #contenedor {
+            width: 90%;
+            max-width: 1024px;
+}
+        img {
+        max-width: 100%;
         height: auto;
-    }
-    #contenido{
-        width: auto;
-    }
-    #barra_lateral{
-        display:none;
-    }
-}
-#contenedor {
-    width: 90%;
-    max-width: 1024px;
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
-/*Pie de página*/
-footer{
-    margin: 0;
-    padding: 0;
-    padding-left: 5%;
-    text-align: center;
-    background-color: #1676E5;
-    color: white;
-    font-size: 300%;
 }
 </style>
